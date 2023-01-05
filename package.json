@@ -10,8 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hapi/hapi": "",
     "@sendgrid/client": "^7.7.0",
     "@sendgrid/mail": "^7.7.0",
-    "@hapi/hapi": ""
+    "dotenv": "^16.0.3"
   }
 }

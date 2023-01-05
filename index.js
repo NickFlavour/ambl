@@ -1,4 +1,5 @@
 const Hapi = require('@hapi/hapi');
+require('dotenv').config();
 
 const init = async () => {
 
@@ -13,10 +14,10 @@ const init = async () => {
 
             const client = require('@sendgrid/client');
             const clientEmail = require('@sendgrid/mail');
-            clientEmail.setApiKey();
-            client.setApiKey();
+            clientEmail.setApiKey(process.env.clientEmail);
+            client.setApiKey(process.env.clientKey);
 
-            // const websiteSubscribersOctListID = 
+            const websiteSubscribersOctListID = process.env.websiteSubscribersOctListID;
 
             console.log(request.payload);
 
@@ -79,10 +80,10 @@ const init = async () => {
 
             const client = require('@sendgrid/client');
             const clientEmail = require('@sendgrid/mail');
-            clientEmail.setApiKey();
-            client.setApiKey();
+            clientEmail.setApiKey(process.env.clientEmail);
+            client.setApiKey(process.env.clientKey);
 
-            const websiteVenueList = '256e787e-dece-4367-90fa-b71e10d86b9b'
+            const websiteVenueList = process.env.websiteVenueList;
 
             console.log(request.payload);
 
