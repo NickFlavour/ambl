@@ -1,0 +1,16 @@
+{
+  "name": "ambl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "amblVenueForm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/client": "^7.7.0",
+    "@sendgrid/mail": "^7.7.0",
+    "@hapi/hapi": ""
+  }
+}
