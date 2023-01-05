@@ -16,7 +16,7 @@ const init = async () => {
             clientEmail.setApiKey();
             client.setApiKey();
 
-            const websiteSubscribersOctListID = '5f002860-d206-41af-b7e8-05747a9d7458'
+            // const websiteSubscribersOctListID = 
 
             console.log(request.payload);
 
