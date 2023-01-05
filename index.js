@@ -44,7 +44,7 @@ const init = async () => {
                 console.log(response.body);
 
                 const msg = {
-                    to: 'alex@vouchglobal.com',
+                    to: 'n.p.elwick@gmail.com',
                     from: 'kevin.patrick@ambl.co', // Use the email address or domain you verified above
                     subject: 'New Submission from AMBL.CO Homepage',
                     text: `New venue submission for ${request.payload['Venue-Name']}`,
@@ -115,7 +115,7 @@ const init = async () => {
                 console.log(body);
 
                 const msg = {
-                    to: 'alex@vouchglobal.com',
+                    to: 'n.p.elwick@gmail.com',
                     from: 'kevin.patrick@ambl.co', // Use the email address or domain you verified above
                     subject: 'New Submission from AMBL.CO Partner Page',
                     text: `New venue submission for ${request.payload['Venue-Name']}`,
