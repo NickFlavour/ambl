@@ -13,8 +13,8 @@ const init = async () => {
 
             const client = require('@sendgrid/client');
             const clientEmail = require('@sendgrid/mail');
-            clientEmail.setApiKey('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');
-            client.setApiKey('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');
+            clientEmail.setApiKey();
+            client.setApiKey();
 
             const websiteSubscribersOctListID = '5f002860-d206-41af-b7e8-05747a9d7458'
 
